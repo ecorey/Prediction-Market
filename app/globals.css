@@ -26,6 +26,11 @@ body {
   background-position: top left;
 }
 
+
+.pixelify_sans {
+  font-family: var(--font-pixelify_sans);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

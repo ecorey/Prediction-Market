@@ -36,3 +36,22 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Animation keyframes */
+@keyframes move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); } /* Example - move horizontally */
+}
+
+
+
+/* Animated element class */
+.radcoin span {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%; 
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move 45s linear infinite;
+}

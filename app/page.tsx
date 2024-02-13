@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { Container } from '@mui/material';
+import { Container, Stack } from '@mui/material';
 
 
 import SquareOne from "../components/SquareOne";
@@ -13,10 +13,28 @@ import Mint from "../components/Mint";
 import NavBar from "@/components/NavBar";
 import Footer from '../components/Footer';
 
+import '../app/globals.css';
+
+
 export default function Home() {
   return (
     <main className="">
       <NavBar />
+      
+      <Stack direction="row" justifyContent="center" alignItems="center" spacing={2}>
+        {/* Animated div with image */}
+        <div className="background">
+          <span>
+            <Image
+              src="https://radbro.xyz/images/radcoin.gif"
+              alt="radcoin"
+              width={125}
+              height={125}
+              layout="fixed"
+            />
+          </span>
+        </div>
+      </Stack>
 
         <Container maxWidth="xl">
           <Grid container spacing={4} className="max-w-screen-2xl mx-auto pt-5 pr-7">

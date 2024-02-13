@@ -52,6 +52,6 @@ body {
   height: 125px;
   border-radius: 50%; 
   backface-visibility: hidden;
-  position: absolute;
+  position: center;
   animation: move 45s linear infinite;
 }

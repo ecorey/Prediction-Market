@@ -30,8 +30,8 @@ export default function Home() {
         direction="row" 
         justifyContent="space-around" 
         alignItems="center" 
-        spacing={2} // Adjust spacing as needed
-        sx={{ width: '100%', padding: '20px 0' }} // Add padding or any additional styling
+        spacing={2} 
+        sx={{ width: '100%', padding: '20px 0' }} 
       >
         <Coin />
         <Rad />

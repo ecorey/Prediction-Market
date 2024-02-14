@@ -1,20 +1,25 @@
 import React from "react";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-import Image from 'next/image';
+import cn from 'classnames'; 
 
 const SquareOne = () => {
   return (
     <Box sx={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        p: 2, 
-        border: '1px solid black', 
-        boxShadow: '0px 0px 10px orange', 
-        borderRadius: '4px', 
-        bgcolor: 'background.paper', 
-      }}>
-      <Image src="/bro.png" alt="cat is pixelated" width={275} height={275} objectFit="contain" />
+      display: 'flex', 
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      p: 2, 
+      border: '1px solid white',  
+      boxShadow: '0px 0px 10px orange', 
+      borderRadius: '4px', 
+      m: 1, 
+      width: '100%',  }}>
+      <Typography className={cn("px-2 py-2 m-2 pixelify_sans")} variant="h4" gutterBottom component="div" sx={{ fontWeight: 'bold', pb: 2 }}>
+        PREDICTRIX
+      </Typography>
+      
     </Box>
   );
 };

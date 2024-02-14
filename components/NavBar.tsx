@@ -18,7 +18,7 @@ const NavBar = () => {
             className={cn("px-2 py-2 m-2 pixelify_sans")} 
             sx={{ flexGrow: 1, textAlign: 'center' }} 
           >
-            PIXLECATS
+            PREDICTRIX
           </Typography>
         </Box>
         <Button variant="outlined" sx={{ border: '1px solid', marginRight: '8px' }}>

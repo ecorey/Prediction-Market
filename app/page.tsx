@@ -26,18 +26,6 @@ export default function Home() {
     <main className="">
       <NavBar />
       
-      <Stack 
-        direction="row" 
-        justifyContent="space-around" 
-        alignItems="center" 
-        spacing={2} 
-        sx={{ width: '100%', padding: '20px 0' }} 
-      >
-        <Coin />
-        <Rad />
-        <Coin />
-      </Stack>
-
       <Container maxWidth="xl">
         <Grid container spacing={4} className="max-w-screen-2xl mx-auto pt-5 pr-7">
           <Grid item xs={12} md={3}>
@@ -68,10 +56,7 @@ export default function Home() {
         </Grid>
     </Container>
 
-    <Rad />
-    <Bro />
-    <Rad />
-      
+   
     <Footer />
 
     </main>

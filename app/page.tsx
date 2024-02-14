@@ -25,14 +25,18 @@ export default function Home() {
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Tokenomics />
             </Grid>
+
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <About />
+              <Mint />
             </Grid>
+            
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Roadmap />
             </Grid>
+            
+
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <Mint />
+              <About />
             </Grid>
           </Grid>
         </Container>

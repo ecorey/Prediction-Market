@@ -16,7 +16,7 @@ const Tokenomics = () => {
        m: 1, 
        width: '100%', 
         }}>
-      <Typography className={cn("px-2 py-2 m-2 pixelify_sans")}  variant="h4" gutterBottom component="div" sx={{  }}>
+      <Typography className={cn("px-2 py-2 m-2 pixelify_sans")}  variant="h4" gutterBottom component="div" sx={{ color: 'blue', }}>
         Tokenomics
       </Typography>
       

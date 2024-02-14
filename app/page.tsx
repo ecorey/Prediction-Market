@@ -1,8 +1,6 @@
-// Import necessary components from Next.js and Material-UI
 import Image from "next/image";
 import { Container, Grid, Box } from '@mui/material';
 
-// Import your custom components
 import SquareOne from "../components/SquareOne";
 import About from "../components/About";
 import Tokenomics from "../components/Tokenomics";
@@ -11,7 +9,6 @@ import Mint from "../components/Mint";
 import NavBar from "@/components/NavBar";
 import Footer from '../components/Footer';
 
-// Import global CSS
 import '../app/globals.css';
 
 export default function Home() {
@@ -19,12 +16,9 @@ export default function Home() {
     <main>
       <NavBar />
 
-      {/* Box component for additional external padding */}
-      <Box sx={{ flexGrow: 1, padding: '0 16px' }}> {/* Adjust this padding as needed */}
+      <Box sx={{ flexGrow: 1, padding: '0 16px' }}> 
         <Container maxWidth="xl" sx={{ mx: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          {/* Grid container with centered content */}
           <Grid container spacing={4} sx={{ justifyContent: 'center' }}>
-            {/* Grid items, each taking full width but centered within the container */}
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
               <SquareOne />
             </Grid>

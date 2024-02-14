@@ -19,13 +19,16 @@ export default function Home() {
       <Box sx={{ flexGrow: 1, padding: '0 16px' }}> 
         <Container maxWidth="xl" sx={{ mx: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <Grid container spacing={4} sx={{ justifyContent: 'center' }}>
-            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <SquareOne />
-            </Grid>
-            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+            
+
+          <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Tokenomics />
             </Grid>
 
+            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+              <SquareOne />
+            </Grid>
+            
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Mint />
             </Grid>

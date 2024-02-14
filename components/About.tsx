@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -15,17 +14,17 @@ const About = () => {
       boxShadow: '0px 0px 10px orange', 
       borderRadius: '4px', 
       m: 1, 
-      width: '100%',  }}>
+      width: '100%',
+      opacity: 0.5, 
+      backgroundColor: 'rgba(128, 128, 128, 0.2)', 
+      pointerEvents: 'none', 
+    }}>
       <Typography className={cn("px-2 py-2 m-2 pixelify_sans")} variant="h4" gutterBottom component="div" sx={{ fontWeight: 'bold', color: 'red', }}>
-        About
+        Confirm Winning Prediction
       </Typography>
+      {/* Content here */}
       <Typography paragraph>
-      
-      
-      </Typography>
-      
-      <Typography paragraph>
-      
+        Content not available.
       </Typography>
     </Box>
   );

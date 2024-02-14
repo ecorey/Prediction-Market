@@ -55,3 +55,32 @@ body {
   position: center;
   animation: move 45s linear infinite;
 }
+
+.text{
+  color: gold;
+  -webkit-text-stroke: 2.5px black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  position:relative;
+  font-size:75px;
+  z-index: 1;
+  text-align: center;
+}
+
+.textbox{
+  display: block;
+  padding-top:70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
+
+@keyframes flickerAnimation { 
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.rad {
+    opacity:1;  
+    animation: flickerAnimation 3s infinite;
+}

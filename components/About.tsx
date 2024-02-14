@@ -20,21 +20,12 @@ const About = () => {
         About
       </Typography>
       <Typography paragraph>
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-
+      
       
       </Typography>
+      
       <Typography paragraph>
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
-      radbro, starfish, radbro, radbro, radbro, whale, radbro, octopus, turtle, lobster, radbro, shark, starfish, lobster, starfish, seahorse, radbro, seahorse, lobster, octopus
+      
       </Typography>
     </Box>
   );

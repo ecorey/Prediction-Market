@@ -13,6 +13,8 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
+    "@mysten/sui.js": "^0.50.1",
+    "@suiet/wallet-kit": "^0.2.22",
     "classnames": "^2.5.1",
     "next": "14.1.0",
     "react": "^18",

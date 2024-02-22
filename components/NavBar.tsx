@@ -6,6 +6,10 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import cn from 'classnames'; 
 
+
+import {ConnectButton} from '@suiet/wallet-kit';
+
+
 const NavBar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: '#000', elevation: 0 }}>

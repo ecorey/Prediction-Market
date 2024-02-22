@@ -11,41 +11,43 @@ import Footer from '../components/Footer';
 
 import '../app/globals.css';
 
+
 export default function Home() {
   return (
     <main>
-      <NavBar />
+        <NavBar />
 
-      <Box sx={{ flexGrow: 1, padding: '0 16px' }}> 
-        <Container maxWidth="xl" sx={{ mx: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Grid container spacing={4} sx={{ justifyContent: 'center' }}>
-            
-
-          <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <Tokenomics />
-            </Grid>
+        <Box sx={{ flexGrow: 1, padding: '0 16px' }}> 
+          <Container maxWidth="xl" sx={{ mx: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Grid container spacing={4} sx={{ justifyContent: 'center' }}>
+              
 
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <SquareOne />
-            </Grid>
-            
-            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <Mint />
-            </Grid>
-            
-            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <Roadmap />
-            </Grid>
-            
+                <Tokenomics />
+              </Grid>
 
-            <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
-              <About />
-            </Grid>
-          </Grid>
-        </Container>
-      </Box>
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <SquareOne />
+              </Grid>
+              
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Mint />
+              </Grid>
+              
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Roadmap />
+              </Grid>
+              
 
-      <Footer />
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
+                <About />
+              </Grid>
+            </Grid>
+          </Container>
+        </Box>
+
+        <Footer />
+      
     </main>
   );
 }

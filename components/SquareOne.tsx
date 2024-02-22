@@ -21,7 +21,7 @@ const SquareOne = () => {
       </Typography>
       {/* Image centered within the Box */}
       <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-        <img src="/map.gif" alt="Map" style={{ maxWidth: '100%', height: 'auto' }} />
+        <img src="/giphy.gif" alt="Map" style={{ maxWidth: '100%', height: 'auto' }} />
       </Box>
     </Box>
   );
